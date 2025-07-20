@@ -31,3 +31,41 @@ Student::Student(Courses cs, QString name, QDate d, Gender g, QString em, QStrin
     this->password = pw;
 
 }
+Student::Student( QString name, QDate d, Gender g, QString em, QString pw){
+    this->fullname = name;
+    this->email = em;
+    this->course = Courses::Artificial_Inteligence; // default choice
+    this->birthdate = d;
+    this->gender = g;
+    this->password = pw;
+
+}
+
+void Person::set_fullname(QString name){
+    this->fullname = name;
+}
+void Student::set_course(Courses cs){
+    this->course = cs;
+
+}
+void Person::set_birthdate(QDate dat){
+    this->birthdate = dat;
+}
+void Person::set_email(QString em){
+    this->email = em;
+}
+void Person::set_gender(QString gen){
+    if (gen == "male"){
+        this->gender = Gender::MALE;
+    }
+    else if(gen == "female"){
+        this->gender = Gender::FEAMALE;
+    }
+    else{
+        this->gender = Gender::DONT_DISCLOSE;
+    }
+}
+void Person::set_password(QString pw){
+    this->password = pw;
+}
+

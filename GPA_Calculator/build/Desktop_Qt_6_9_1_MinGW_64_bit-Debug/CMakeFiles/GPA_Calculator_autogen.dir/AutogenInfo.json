@@ -336,7 +336,9 @@
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/gpa.qrc",
+		"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/registration.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator",
 	"CROSS_CONFIG" : false,
@@ -354,6 +356,18 @@
 			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/person.h",
 			"MU",
 			"EWIEGA46WW/moc_person.cpp",
+			null
+		],
+		[
+			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/registration_dialog.h",
+			"MU",
+			"EWIEGA46WW/moc_registration_dialog.cpp",
+			null
+		],
+		[
+			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/signin_dialog.h",
+			"MU",
+			"EWIEGA46WW/moc_signin_dialog.cpp",
 			null
 		],
 		[
@@ -435,12 +449,27 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/Person.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/main.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/registration_dialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/sandr/Documents/GitHub/Qt_Projects/GPA_Calculator/signin_dialog.cpp",
 			"MU",
 			null
 		],

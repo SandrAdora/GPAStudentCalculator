@@ -17,32 +17,33 @@ class Person{
 public:
     // Constructors
     Person();
-    Person(int, QString, QString);
+    Person(QString em, QString pw);
     Person(QString, QDate, Gender, QString, QString);
 
 
-    // Getter & Setter Methods
-    virtual void set_fullname(QString);
-    virtual void set_birthdate(QDate);
-    virtual void set_email(QString);
-    virtual void set_password(QString);
-    virtual void set_gender(QString); // Will need a helper function to convert string to int
 
-    virtual QString get_fullname() const;
-    virtual QString get_email() const;
-    virtual QString get_password() const;
-    virtual QDate get_birthdate() const;
-    virtual Gender get_gender() const;
+    // Getter & Setter Methods
+    virtual void set_fullname(QString) = 0;
+    virtual void set_birthdate(QDate) = 0;
+    virtual void set_email(QString) = 0;
+    virtual void set_password(QString) = 0;
+    virtual void set_gender(QString) = 0; // Will need a helper function to convert string to int
+
+    virtual QString get_fullname() const {return this->fullname;};
+    virtual QString get_email()  const {return this->email;};
+    virtual QString get_password()  const {return this->password;};
+    virtual QDate get_birthdate() const {return this->birthdate;};
+    virtual Gender get_gender() const {return this->gender;};
 
     // virtual functions
     virtual void print_person_details() = 0;
 
 
 protected:
-    QString fullname{""};
-    QDate birthdate = QDate(1990, 3, 15);
-    Gender gender = Gender::DONT_DISCLOSE;
-    QString email{""};
-    QString password{""};
+    QString fullname;
+    QDate birthdate;
+    Gender gender;
+    QString email;
+    QString password;
 
 };

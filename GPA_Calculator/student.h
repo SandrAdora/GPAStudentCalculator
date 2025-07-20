@@ -30,7 +30,10 @@ public:
     Student();
     Student(int, QString, QDate, Gender, QString, QString, Courses);
     Student(Courses, QString, QDate, Gender, QString, QString);
-    Student(QString, QString, QDate, Gender, QString, QString);
+    Student(QString, QDate, Gender, QString, QString);
+
+
+
 
     void set_course(Courses);
     Courses get_course(QString);

@@ -25,6 +25,16 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         person.h
         student.h student.cpp
+        Person.cpp
+
+        gpa.qrc
+        gpa.qrc
+        gpa.qrc
+        registration_dialog.h registration_dialog.cpp registration_dialog.ui
+        registration.qrc
+        registration.qrc
+        signin_dialog.h signin_dialog.cpp signin_dialog.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GPA_Calculator APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
