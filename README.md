@@ -3,7 +3,7 @@
 This Windows-Application calculates the GPA of a Student. A Student can signIn to this application
 and save his/her grades in this application. The Student can add, delete or correct a grade he/she inserted earlier. 
 For the registration only a unique email and password is required aswell as the course of study. 
-The student can either type in his/her course of study or choose from the dropdown menu:
+The student can choose  from the dropdown menu course of study:
 
 + Mathematics
 + Informatics
